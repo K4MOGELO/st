@@ -1,9 +1,13 @@
-# Luke's build of st - the simple (suckless) terminal
+# st - the Simple (Suckless) Terminal
 
-The [suckless terminal (st)](https://st.suckless.org/) with some additional
-features that make it literally the best terminal emulator ever:
+My own build of the [suckless terminal (st)](https://st.suckless.org/), forked from Luke Smith's build
 
-## Unique features (using dmenu)
+with some additional features that make it literally the best terminal emulator ever:
+
+
+___
+
+### Unique features (using dmenu)
 
 + **follow urls** by pressing `alt-l`
 + **copy urls** in the same way with `alt-y`
@@ -39,7 +43,7 @@ features that make it literally the best terminal emulator ever:
 You should have xlib header files and libharfbuzz build files installed.
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/K4MOGELO/st
 cd st
 sudo make install
 ```
@@ -83,7 +87,4 @@ To be clear about the color settings:
 
 Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
 
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
+___
